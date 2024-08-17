@@ -4,10 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Penguin Fashion</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/css/main.css">
+    <style>
+        .bebas-neue {
+            font-family: "Bebas Neue", sans-serif;
+        }
+        .roboto-regular {
+            font-family: "Roboto", sans-serif;
+        }
+
+    </style>
 </head>
 <body>
-    rasel
-    <h1>rasel</h1>
+   <header class="bg-yellow-50">
+    <nav class="w-11/12 mx-auto flex justify-between items-center gap-40">
+        <div class="lg:w-1/2 md:w-1/2 sm:w-1/2 ">
+            <img class="p-8 sm:p-2" src="./icons/logo.png" alt="website logo">
+        </div>
+        <div class="xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 sm:hidden lg:block xl:block flex justify-end items-end">
+            <ul class="flex justify-evenly items-center gap-3 font-medium text-2xl roboto-regular">
+                <li class="hover:cursor-pointer">Home</li>
+                <li class="hover:cursor-pointer">Product</li>
+                <li class="hover:cursor-pointer">About us</li>
+                <li class="hover:cursor-pointer">Contact us</li>
+            </ul>
+            <div class="lg:hidden md:block ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+                  </svg>                  
+            </div>
+        </div>
+    </nav>
+   </header>
 </body>
 </html>
