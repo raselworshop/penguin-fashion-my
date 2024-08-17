@@ -8,6 +8,19 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- this section added for the git-hub link to be active -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+            }
+          }
+        }
+      }
+    </script>
     <link rel="stylesheet" href="/css/main.css">
     <style>
         .bebas-neue {
@@ -20,8 +33,9 @@
     </style>
 </head>
 <body>
+    <!-- header section here -->
    <header class="bg-yellow-50">
-    <nav class="w-11/12 mx-auto flex justify-between items-center gap-40">
+    <nav class="w-11/12 mx-auto flex justify-between items-center gap-60">
         <div class="lg:w-1/2 md:w-1/2 sm:w-1/2 ">
             <img class="p-8 sm:p-2" src="./icons/logo.png" alt="website logo">
         </div>
@@ -40,5 +54,22 @@
         </div>
     </nav>
    </header>
+   <!-- main section here -->
+   <main class="xl:w-11/12 mx-auto">
+    <!-- banner section start here -->
+    <section class="bg-yellow-50">
+        <div>
+            <h1><span>Be the Penguins </span><br>of Winter</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing <br>
+                and typesetting industry.</p>
+            <button class="flex">
+                <img src="./icons/shopping-cart1.png" alt=""><span>Buy Now</span>
+            </button>
+        </div>
+        <div>
+            <img src="./images/model.png" alt="">
+        </div>
+    </section>
+   </main>
 </body>
 </html>
