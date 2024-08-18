@@ -34,32 +34,32 @@
         }
     </style>
 </head>
-<body>
+<body class="max-w-screen-2xl mx-auto">
     <!-- header section here -->
-   <header class="bg-yellow-50">
+   <header class="bg-yellow-50 w-full lg:w-11/12 mx-auto">
     <!-- navbar section here -->
-    <nav class="w-11/12 mx-auto flex justify-between items-center gap-60">
-        <div class="lg:w-1/2 md:w-1/2 sm:w-1/2 ">
-            <img class="p-8 sm:p-2" src="./icons/logo.png" alt="website logo">
+    <nav class="w-11/12 mx-auto flex justify-between items-center gap-12 lg:gap-60">
+        <div class="lg:w-1/2 md:w-1/2 w-1/2 ">
+            <img class="p-0 lg:p-8" src="./icons/logo.png" alt="website logo">
         </div>
-        <div class="xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 sm:hidden lg:block xl:block flex justify-end items-end">
+        <div class="xl:w-1/2 lg:w-1/2 md:w-1/2 sm:w-1/2 hidden lg:block xl:block ">
             <ul class="flex justify-evenly items-center gap-3 font-medium text-2xl roboto-regular">
                 <li class="hover:cursor-pointer">Home</li>
                 <li class="hover:cursor-pointer">Product</li>
                 <li class="hover:cursor-pointer">About us</li>
                 <li class="hover:cursor-pointer">Contact us</li>
             </ul>
-            <div class="lg:hidden md:block ">
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
-                  </svg>                  
-            </div>
+        </div>
+        <div class="md:hidden block ">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5m-16.5 4.5h16.5" />
+              </svg>                 
         </div>
     </nav>
     <!-- banner section start here -->
-    <section class="xl:w-11/12 mx-auto pt-14 flex justify-between items-center gap-52">
+    <section class="w-11/12 mx-auto pt-14 flex flex-col lg:flex-row justify-between items-center gap-12 lg:gap-52">
         <div>
-            <h1 class="bebas-neue font-bold text-7xl tracking-wide text-sky-950"><span class="text-yellow-300">Be the Penguins </span><br>of Winter</h1>
+            <h1 class="bebas-neue font-bold text-5xl xl:text-7xl tracking-wide text-sky-950"><span class="text-yellow-300">Be the Penguins </span><br>of Winter</h1>
             <p class="roboto-regular font-normal text-stone-600 text-sm my-5">Lorem Ipsum is simply dummy text of the printing <br>
                 and typesetting industry.</p>
             <button class="flex justify-between items-center gap-0 text-slate-50 bg-lime-600 from-current text-2xl py-1 px-3 border-2 border-solid border-black rounded-xl">
@@ -75,9 +75,9 @@
    <main>
     <!-- woman jacket section here -->
     <section class="w-11/12 mx-auto my-10">
-        <div><h1 class="font-bold bebas-neue text-6xl tracking-wide text-sky-950">WOMAN JACKET</h1></div>
-        <div class="xl:flex lg:flex justify-around items-center">
-            <div class="card-width sm:my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
+        <div><h1 class="font-bold bebas-neue my-5 text-center lg:text-left text-4xl lg:text-6xl tracking-wide text-sky-950">WOMAN JACKET</h1></div>
+        <div class="xl:flex lg:flex justify-around items-center gap-5">
+            <div class="xl:card-width my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
                 <div class="w-4/5"><img class="rounded-xl bg-slate-200 p-8" src="./images/jacket-1.png" alt="jacket one"></div>
                 <div class="w-4/5 my-5">
                     <h1 class="text-sky-950 text-2xl font-bold roboto-regular">Yellow Coat Jacket </h1>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-width sm:my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
+            <div class="xl:card-width my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
                 <div class="w-4/5"><img class="rounded-xl bg-slate-200 p-8" src="./images/jacket-2.png" alt="jacket 2"></div>
                 <div class="w-4/5 my-5">
                     <h1 class="text-sky-950 text-2xl font-bold roboto-regular">Yellow Coat Jacket </h1>
@@ -103,7 +103,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-width sm:my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
+            <div class="xl:card-width my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
                 <div class="w-4/5"><img class="rounded-xl bg-slate-200 p-8" src="./images/jacket-3.png" alt="jacket 3"></div>
                 <div class="w-4/5 my-5">
                     <h1 class="text-sky-950 text-2xl font-bold roboto-regular">Yellow Coat Jacket </h1>
@@ -120,9 +120,9 @@
     </section>
     <!-- man jacket section here -->
     <section class="w-11/12 mx-auto my-10">
-        <div><h1 class="font-bold bebas-neue text-6xl tracking-wide text-sky-950">MAN JACKET</h1></div>
-        <div class="xl:flex lg:flex justify-around items-center">
-            <div class="card-width sm:my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
+        <div><h1 class="font-bold bebas-neue py-5 text-center lg:text-left text-4xl lg:text-6xl tracking-wide text-sky-950">MAN JACKET</h1></div>
+        <div class="xl:flex lg:flex justify-around items-center gap-5">
+            <div class="xl:card-width my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
                 <div class="w-4/5"><img class="rounded-xl bg-slate-200 p-8" src="./images/jacket-4.png" alt="jacket one"></div>
                 <div class="w-4/5 my-5">
                     <h1 class="text-sky-950 text-2xl font-bold roboto-regular">Snowboard Jacket Mens </h1>
@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-width sm:my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
+            <div class="xl:card-width my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
                 <div class="w-4/5"><img class="rounded-xl bg-slate-200 p-8" src="./images/jacket-5.png" alt="jacket 2"></div>
                 <div class="w-4/5 my-5">
                     <h1 class="text-sky-950 text-2xl font-bold roboto-regular">Man Leather Jackets </h1>
@@ -148,7 +148,7 @@
                     </div>
                 </div>
             </div>
-            <div class="card-width sm:my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
+            <div class="xl:card-width my-12 md:my-12 flex flex-col justify-around items-center shadow-md rounded-md">
                 <div class="w-4/5"><img class="rounded-xl bg-slate-200 p-8" src="./images/jacket-6.png" alt="jacket 3"></div>
                 <div class="w-4/5 my-5">
                     <h1 class="text-sky-950 text-2xl font-bold roboto-regular">Man Casual Jackets </h1>
@@ -164,7 +164,7 @@
         </div>
     </section>
     <!-- other facilities start here -->
-    <section class="w-11/12 mx-auto my-10 flex justify-between items-center gap-44">
+    <section class="w-11/12 mx-auto my-10 flex lg:flex-row flex-col-reverse justify-between items-center gap-12 lg:gap-44">
         <div class="flex flex-col justify-between items-start gap-5 p-6">
             <div class="flex justify-between items-center gap-4">
                 <div class="max-w-28"><img class="p-2" src="./icons/house.png" alt=""></div>
@@ -191,7 +191,7 @@
                 </div>
             </div>
         </div>
-        <div class="w-1/2">
+        <div class="lg:w-1/2 w-full p-5">
             <img src="./images/shopping.png" alt="">
         </div>
     </section>
@@ -199,8 +199,8 @@
    <!-- footer section here -->
    <footer class="bg-slate-700 mx-auto">
     <div class="flex flex-col justify-around items-center py-14">
-        <h1 class="bebas-neue font-bold text-7xl italic text-yellow-500 tracking-wider">PENGUINs SHOPPING</h1>
-        <p class="text-lg py-4 text-white italic font-medium roboto-regular">&COPY;all rights reserved penguin shopping 2024</p>
+        <h1 class="bebas-neue font-bold text-5xl lg:text-7xl italic text-yellow-500 tracking-wider text-center">PENGUINs SHOPPING</h1>
+        <p class="text-base lg:text-lg py-4 text-white italic font-medium roboto-regular">&COPY;all rights reserved penguin shopping 2024</p>
     </div>
    </footer>
 </body>
